@@ -5,13 +5,13 @@ Bùi Đức Dương _ B19DCCN145
 
 Hoàng Hiền Trang _ B19DCCN682
 
-Công việc : add,edit,delete,view
+Công việc : các tính năng add,edit,delete
 
-Trang làm add
+Trang code các file view (html,css)
 
-Quỳnh Làm edit
+Quỳnh viết sql
 
-Dương view,delete
+Dương code xử lý backend (bao gồm các tính năng trên)
 
 Mô tả web:
 
@@ -23,7 +23,7 @@ Mô tả web:
 
 +edit: nhập các thông số vào các ô cần thay đổi ấn save
 
-+delete: chọn sản phẩm cần xóa và chọn yes để xóa , no để không xóa
++delete: chọn sản phẩm cần xóa và chọn yes để xóa , no để hủy
 
 Mô tả cách làm:
 
