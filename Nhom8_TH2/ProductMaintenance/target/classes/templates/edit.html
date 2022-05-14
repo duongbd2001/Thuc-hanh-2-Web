@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns=http://www.w3.org/1999/xhtml
+
+xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<title>Edit Product</title>
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+    <body>
+        <h1>Add Product</h1>
+        <form th:action="@{/product/edit}" method= "post" th:object="${product}">
+            <label> PRODUCT CODE: </label><input th:field =*{code} type="text" required minlength="2" maxlength="255" disabled></input><br><br>
+            <label>PRODUCT DESCRIPTION: </label><input th:field =*{description} type="text" required minlength="2" maxlength="255"></input><br><br>
+            <label> PRODUCT PRICE: </label><input th:field =*{price} type="text"></input><br><br>
+            <input value="Save" type="submit">
+        </form>
+    </body>
+</html>
